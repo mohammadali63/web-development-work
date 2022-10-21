@@ -1,0 +1,3 @@
+*oparetor in php
+       * arithmatic oparetor
+          *+,_ * ,/,%,++,__;
