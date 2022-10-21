@@ -1,0 +1,2 @@
+*oparetor in php
+* assignment oparetor:-(=,+=,-=,*=,%=,/=,.=)
