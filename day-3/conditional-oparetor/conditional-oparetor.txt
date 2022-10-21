@@ -1,0 +1,4 @@
+*oparetor in php:-
+
+* conditional oparetor:-
+          ( >,>=,<,<=,==,!=,.==,!==)
