@@ -1,0 +1,8 @@
+* variable 3 major rules
+        *start with $ sing
+        *a-z,A-Z,0-9
+        *no number in start
+      *3 standard rules
+       * start small letter
+       * meaning full variable name
+       * readable
