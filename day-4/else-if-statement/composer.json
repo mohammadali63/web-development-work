@@ -1,0 +1,14 @@
+{
+  "name": "else-if-statement/else-if-statement",
+  "type": "project",
+  "description": "A simple project",
+  "keywords": [],
+  "license": "",
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "App\\": "app//"
+    }
+  }
+}
