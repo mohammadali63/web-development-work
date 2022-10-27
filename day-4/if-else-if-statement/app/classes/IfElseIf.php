@@ -16,15 +16,15 @@ class IfElseIf
     {
         if ($this->x > $this->y)
         {
-            echo "hello world";
+            echo "largest value=20";
         }
         elseif ($this->y > $this->z)
         {
-            echo "hello bitm";
+            echo "largest value=30";
         }
         elseif ($this->z > $this->x)
         {
-            echo "hello bangladesh";
+            echo "largest value=40";
         }
         else{
             echo "eror";
