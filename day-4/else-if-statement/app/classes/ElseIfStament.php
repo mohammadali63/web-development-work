@@ -15,18 +15,18 @@ class ElseIfStament
     {
         if ($this->x > $this->y)
         {
-            echo "largest number is x=20";
+            echo "largest value=20";
         }
-        elseif($this->y > $this->z)
+        elseif ($this->y > $this->z)
         {
-            echo "largest number is y=30";
+            echo "largest value=30";
         }
-        elseif($this->z > $this->x)
+        elseif ($this->z > $this->x)
         {
-            echo "largest number is y=30";
+            echo "largest value=40";
         }
         else{
-            echo "Eror";
+            echo "eror";
         }
 
 
