@@ -9,20 +9,20 @@ class Category
     {
         $this->categories = [
             0=>[
-                'id'=>1,
-                'name'=>'national',
+                'id'    => 1,
+                'name'  => 'national',
             ],
             1=>[
-                'id'=>2,
-                'name'=>'International',
+                'id'    => 2,
+                'name'  => 'International',
             ],
             2=>[
-                'id'=>3,
-                'name'=>'Sports',
+                'id'    => 3,
+                'name'  => 'Sports',
             ],
             3=>[
-                'id'=>4,
-                'name'=>'Economics',
+                'id'    => 4,
+                'name'  => 'Economics',
             ],
         ];
     }
