@@ -1,0 +1,14 @@
+{
+  "name": "work-6/work-6",
+  "type": "project",
+  "description": "php project",
+  "keywords": [],
+  "license": "",
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "App\\": "app//"
+    }
+  }
+}
