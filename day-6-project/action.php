@@ -21,4 +21,11 @@ if (isset($_GET['page']))
         $blogs = $blog->getBlogByCategoryId($id);
         include 'pages/category.php';
     }
+    elseif ($_GET['page'] == 'description')
+    {
+        $id = $_GET['id'];
+        $blogs = $blog->getDescriptionByBlog($id);
+        include 'pages/description.php';
+    }
+
 }

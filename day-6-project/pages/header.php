@@ -12,10 +12,10 @@
 <div>
     <?php foreach ($categories as $category) { ?>
 
-        <a href="action.php?page=category&&id=<?php echo $category['id']; ?>"><?php echo $category['name']; ?> </a>||
+        <a href="action.php?page=category&&id=<?php echo $category['id']; ?>"><?php echo $category['name']; ?> </a>&nbsp;
 
     <?php } ?>
-    <a href="action.php?page=home">Home</a>||
+    <a href="action.php?page=home">Home</a>
 
 
 </div>

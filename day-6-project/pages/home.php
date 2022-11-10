@@ -8,7 +8,7 @@
                 <div>
                     <h3><?php echo $blog['title']; ?></h3>
                     <p><?php echo $blog['description']; ?></p>
-                    <a href=""> <button class="">Read More</button> </a>
+                    <a href="action.php?page=description&&id= <?php echo $blog['id'];?>"> <button class="">Read More</button> </a>
                 </div>
             </div>
         <?php } ?>
