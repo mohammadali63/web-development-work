@@ -4,7 +4,7 @@ use App\classes\Category;
 use App\classes\Blog;
 
 $category=new Category();
-$categories=$category->getAllCategory();
+$categories = $category->getAllCategory();
 
 $blog = new Blog();
 $blogs = $blog->getAllBlog();

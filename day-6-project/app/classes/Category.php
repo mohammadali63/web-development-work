@@ -25,7 +25,7 @@ class Category
             ],
             3  => [
                 'id'=>4,
-                'name'=>'Entertainment',
+                'name'=>'Economices',
             ],
         ];
     }

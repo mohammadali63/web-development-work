@@ -6,13 +6,3 @@
     float: left;
     margin: 10px;
 }
-
-.time
-{
-    transition-duration: 0.4s;
-}
-.btn:hover
-{
-    background-color:#4CAF50;
-    color: white;
-}
