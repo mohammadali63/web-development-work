@@ -9,13 +9,16 @@
     <link rel="stylesheet" href="assets/css/bootstrap.css"/>
 </head>
 <body>
-    <nav class="navbar navbar-expand">
-        <ul class="navbar-nav">
-            <li><a href="" class="nav-link">Home</a></li>
-            <li><a href="" class="nav-link">About</a></li>
-            <li><a href="" class="nav-link">Service</a></li>
-            <li><a href="" class="nav-link">Contact</a></li>
-        </ul>
+    <nav class="navbar navbar-expand bg-dark navbar-dark">
+        <div class="container">
+            <a href="" class="navbar-brand">LOGO</a>
+            <ul class="navbar-nav">
+                <li><a href="" class="nav-link">Home</a></li>
+                <li><a href="" class="nav-link">About</a></li>
+                <li><a href="" class="nav-link">Service</a></li>
+                <li><a href="" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
     </nav>
 
 
