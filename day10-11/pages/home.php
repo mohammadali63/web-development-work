@@ -34,7 +34,24 @@
         </div>
     </nav>
 
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="" alt="" height="200" width="260"/>
+                        <div class="card-body">
+                            <h1>This is product heading</h1>
+                            <p>This is product description</p>
+                            <hr/>
+                            <a href="">Read More</a>
+                        </div>
+                    </div>
 
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
