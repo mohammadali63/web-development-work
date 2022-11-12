@@ -9,17 +9,32 @@
     <link rel="stylesheet" href="assets/css/bootstrap.css"/>
 </head>
 <body>
-    <nav class="navbar navbar-expand bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <div class="container">
             <a href="" class="navbar-brand">LOGO</a>
-            <ul class="navbar-nav">
-                <li><a href="" class="nav-link">Home</a></li>
-                <li><a href="" class="nav-link">About</a></li>
-                <li><a href="" class="nav-link">Service</a></li>
-                <li><a href="" class="nav-link">Contact</a></li>
-            </ul>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav mx-auto">
+                    <li><a href="" class="nav-link">Home</a></li>
+                    <li><a href="" class="nav-link">About</a></li>
+                    <li class="dropdown">
+                        <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Service</a>
+                            <ul class="dropdown-menu">
+                                <li><a href=""class="dropdown-item">Service_One</a></li>
+                                <li><a href=""class="dropdown-item">Service_Two</a></li>
+                                <li><a href=""class="dropdown-item">Service_Three</a></li>
+                                <li><a href=""class="dropdown-item">Service_Foure</a></li>
+                            </ul>
+                    </li>
+                    <li><a href="" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
+
+
 
 
 
