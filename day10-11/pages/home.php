@@ -34,21 +34,57 @@
         </div>
     </nav>
 
-    <section>
+    <section class="bg-secondary py-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
-                    <div class="card">
-                        <img src="" alt="" height="200" width="260"/>
+                    <div class="card h-100">
+                        <img src="assets/img/26.jpg" class="img-fluid" alt="" height="200" width="260"/>
                         <div class="card-body">
                             <h1>This is product heading</h1>
                             <p>This is product description</p>
                             <hr/>
-                            <a href="">Read More</a>
+                            <a href="" class="btn btn-outline-danger">Read More</a>
                         </div>
                     </div>
-
                 </div>
+
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="assets/img/26.jpg" class="img-fluid" alt="" height="200" width="260"/>
+                        <div class="card-body">
+                            <h1>This is product heading</h1>
+                            <p>This is product description</p>
+                            <hr/>
+                            <a href="" class="btn btn-outline-danger">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="assets/img/26.jpg" class="img-fluid" alt="" height="200" width="260"/>
+                        <div class="card-body">
+                            <h1>This is product heading</h1>
+                            <p>This is product description</p>
+                            <hr/>
+                            <a href="" class="btn btn-outline-danger">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="assets/img/26.jpg" class="img-fluid" alt="" height="200" width="260"/>
+                        <div class="card-body">
+                            <h1>This is product heading</h1>
+                            <p>This is product description</p>
+                            <hr/>
+                            <a href="" class="btn btn-outline-danger">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
