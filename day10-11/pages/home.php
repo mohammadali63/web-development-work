@@ -22,10 +22,9 @@
                     <li class="dropdown">
                         <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Service</a>
                             <ul class="dropdown-menu">
-                                <li><a href=""class="dropdown-item">Service_One</a></li>
-                                <li><a href=""class="dropdown-item">Service_Two</a></li>
-                                <li><a href=""class="dropdown-item">Service_Three</a></li>
-                                <li><a href=""class="dropdown-item">Service_Foure</a></li>
+                                <?php foreach ($categories as $category) { ?>
+                                <li><a href=""class="dropdown-item"><?php echo $category['name']?></a></li>
+                                <?php } ?>
                             </ul>
                     </li>
                     <li><a href="" class="nav-link">Contact</a></li>
