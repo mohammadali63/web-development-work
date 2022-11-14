@@ -11,13 +11,13 @@
 <body>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <div class="container">
-            <a href="" class="navbar-brand">LOGO</a>
+            <a href="action.php?page=home" class="navbar-brand">LOGO</a>
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="menu">
                 <ul class="navbar-nav mx-auto">
-                    <li><a href="" class="nav-link">Home</a></li>
+                    <li><a href="action.php?page=home" class="nav-link">Home</a></li>
                     <li><a href="" class="nav-link">About</a></li>
                     <li class="dropdown">
                         <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Service</a>
@@ -44,45 +44,11 @@
                             <p>This is product description</p>
                             <hr/>
                             <a href="" class="btn btn-outline-danger">Read More</a>
+                            <a href="" class="btn btn-dark">Add to Cart</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-3">
-                    <div class="card h-100">
-                        <img src="assets/img/26.jpg" class="img-fluid" alt="" height="200" width="260"/>
-                        <div class="card-body">
-                            <h1>This is product heading</h1>
-                            <p>This is product description</p>
-                            <hr/>
-                            <a href="" class="btn btn-outline-danger">Read More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="card h-100">
-                        <img src="assets/img/26.jpg" class="img-fluid" alt="" height="200" width="260"/>
-                        <div class="card-body">
-                            <h1>This is product heading</h1>
-                            <p>This is product description</p>
-                            <hr/>
-                            <a href="" class="btn btn-outline-danger">Read More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="card h-100">
-                        <img src="assets/img/26.jpg" class="img-fluid" alt="" height="200" width="260"/>
-                        <div class="card-body">
-                            <h1>This is product heading</h1>
-                            <p>This is product description</p>
-                            <hr/>
-                            <a href="" class="btn btn-outline-danger">Read More</a>
-                        </div>
-                    </div>
-                </div>
 
             </div>
         </div>
