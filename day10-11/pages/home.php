@@ -1,4 +1,4 @@
-
+<?php include 'header.php'?>
 
     <section class="bg-secondary py-5">
         <div class="container">
@@ -23,6 +23,8 @@
             </div>
         </div>
     </section>
+
+<?php include 'footer.php'?>
 
 
 
