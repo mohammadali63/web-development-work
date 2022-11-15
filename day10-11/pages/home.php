@@ -16,11 +16,11 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="menu">
-                <ul class="navbar-nav mx-auto">
+                <ul class="navbar-nav ms-auto">
                     <li><a href="action.php?page=home" class="nav-link">Home</a></li>
                     <li><a href="" class="nav-link">About</a></li>
                     <li class="dropdown">
-                        <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Service</a>
+                        <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Category</a>
                             <ul class="dropdown-menu">
                                 <?php foreach ($categories as $category) { ?>
                                 <li><a href=""class="dropdown-item"><?php echo $category['name']?></a></li>
@@ -28,6 +28,15 @@
                             </ul>
                     </li>
                     <li><a href="" class="nav-link">Contact</a></li>
+                    <li class="dropdown">
+                        <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Brand</a>
+                            <ul class="dropdown-menu">
+                                <?php foreach ($brands as $brand) { ?>
+                                <li><a href="action.php?page=brand&&id= <?php echo $brand['id']; ?>"class="dropdown-item"><?php echo $brand['name']?></a></li>
+                                <?php } ?>
+                            </ul>
+                    </li>
+
                 </ul>
             </div>
         </div>
@@ -36,20 +45,23 @@
     <section class="bg-secondary py-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <?php
+                $i=0;
+                foreach ($products as $product): if ($i==8){break;}
+                ?>
+                <div class="col-md-3 mb-3">
                     <div class="card h-100">
-                        <img src="assets/img/26.jpg" class="img-fluid" alt="" height="200" width="260"/>
+                        <img src="assets/img/<?php echo $product['img']; ?>" class="img-fluid" alt="" height="200" width="260"/>
                         <div class="card-body">
-                            <h1>This is product heading</h1>
-                            <p>This is product description</p>
+                            <h3><?php echo $product['name']; ?> </h3>
+                            <p><?php echo $product['price']; ?></p>
                             <hr/>
                             <a href="" class="btn btn-outline-danger">Read More</a>
                             <a href="" class="btn btn-dark">Add to Cart</a>
                         </div>
                     </div>
                 </div>
-
-
+                <?php $i++; endforeach; ?>
             </div>
         </div>
     </section>
