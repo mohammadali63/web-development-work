@@ -8,8 +8,8 @@
                     <div class="card h-100">
                         <img src="assets/img/<?php echo $product['img']; ?>" class="img-fluid" alt="" height="200" width="260"/>
                         <div class="card-body">
-                            <h3><?php echo $product['name']; ?> </h3>
-                            <p><?php echo $product['price']; ?></p>
+                            <h5><?php echo $product['name']; ?> </h5>
+                            <p><b>TK. </b><?php echo $product['price']; ?></p>
                             <hr/>
                             <a href="" class="btn btn-outline-danger">Read More</a>
                             <a href="" class="btn btn-dark">Add to Cart</a>

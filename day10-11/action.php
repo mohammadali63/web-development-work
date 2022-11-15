@@ -26,4 +26,11 @@ if (isset($_GET['page']))
         $brand_product = $product->getProductByBrandId($brand_id);
         include 'pages/brand.php';
     }
+    elseif ($_GET['page'] =='category')
+    {
+        $category_id= $_GET['id'];
+        $categoriespage = $product->getProductByCategoryId($category_id);
+        include 'pages/category.php';
+
+    }
 }
