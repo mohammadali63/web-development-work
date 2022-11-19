@@ -1,26 +1,5 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/bootstrap.css"/>
-</head>
-<body>
 
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
-    <div class="container">
-        <a href="" class="navbar-brand">My php</a>
-        <ul class="navbar-nav">
-            <li><a href="" class="nav-link">Home</a></li>
-            <li><a href="" class="nav-link">About</a></li>
-        </ul>
-    </div>
-
-</nav>
-
+<?php include 'header.php'?>
 <section class="py-5 bg-info">
     <div class="container">
         <div class="row">
@@ -46,7 +25,7 @@
                             <div class="row mb-3">
                                 <label class="col-md-3">Full Name</label>
                                 <div class="col-md-9">
-                                    <input type="text" class="form-control" />
+                                    <input type="text" value="<?php echo $result; ?>" class="form-control" />
                                 </div>
                             </div>
 
@@ -67,6 +46,6 @@
     </div>
 </section>
 
-<script src="assets/js/bootstrap.bundle.js"></script>
-</body>
-</html>
+<?php include 'footer.php'?>
+
+
